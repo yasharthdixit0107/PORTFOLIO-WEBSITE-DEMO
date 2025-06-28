@@ -554,6 +554,7 @@ a{
     width: 50%;
     position: relative;
     gap: 2rem;
+    justify-content: center;
 }
 
 .skill-fade-text{
@@ -564,6 +565,6 @@ a{
     bottom: -34.5%;
     right: -25%;
     user-select: none;
-    overflow-y: hidden;
+   /*  overflow-y: hidden; */
 }
 
