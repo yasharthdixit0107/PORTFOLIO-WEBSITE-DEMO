@@ -557,16 +557,17 @@ a{
     justify-content: center;
 }
 
-.skill-fade-text{
-    position: absolute;
-    font-size: 15em;
-    font-style: bold;
-    color: rgb(231,231,231);
-    bottom: -34.5%;
-    right: -25%;
-    user-select: none;
-   /*  overflow-y: hidden; */
+.skill-fade-text {
+  position: absolute;
+  font-size: 15em;
+  color: rgb(231,231,231);
+  bottom: -34.5%;
+  left: 50%;                       /* screen ke bilkul beech me lao */
+  transform: translateX(33%);     /*  apne according right shift kra hai by hit n trial */
+  user-select: none;
+  overflow-y: hidden;
 }
+
 
 .blob-style{
     position: absolute;
