@@ -568,3 +568,51 @@ a{
    /*  overflow-y: hidden; */
 }
 
+.blob-style{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -5;
+    transform: translate(-50%, -50%);
+    animation: blobAnimate 3s linear infinite;
+}
+
+@keyframes blobAnimate {
+    50%{
+        top: 54%;
+        left: 56%;    
+    }
+}
+
+.skills-logo{
+    width: 90px;
+    transition: all 0.5s;
+}
+
+.skills-logo:hover{
+    transform:scale(1.2) /*  skills logo hover pr transform effect show karenge */
+}
+
+.skill-heading{
+    font-size: 50px;
+    font-style: bold;
+    color: var(--bgOrange);
+    line-height: 50px;
+}
+
+.caps{
+    font-size: 90px;
+}
+
+.skill-subheading{
+    margin-top: 1rem;
+    width: 85%;
+    text-align: justify;
+}
+
+.skill-subheading p{  /* skill me paragraph ke beech me gap dene ke liye we use  */
+
+    margin: 18px 0;
+
+}
+
