@@ -542,7 +542,7 @@ a {
   position: absolute;
   font-size: 15em;
   color: rgb(231, 231, 231);
-  bottom: -34.5%;
+  bottom: -29.5%; /* isse Skills faded text contact yus form se upar shift hopga according to us */
   left: 50%; /* screen ke bilkul beech me lao */
   transform: translateX(
     33%
@@ -600,3 +600,30 @@ a {
 
   margin: 18px 0;
 }
+    
+.contactus-form-container{
+  width: 100%;
+  background-color: rgb(231, 231, 231);
+}
+
+
+.contactus-heading{
+  font-size: 5em;
+  color: var(--bgOrange);
+  padding-top: 2rem;
+}
+
+.contactus-sub-heading{
+  font-size: 3rem;
+  color: #343d68aa;
+  text-transform: capitalize;
+}
+
+.contactus-form-container{
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* form me items ek ke niche ek laane ke liya */
